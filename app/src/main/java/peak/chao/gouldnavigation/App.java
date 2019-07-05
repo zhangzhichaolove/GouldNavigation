@@ -2,8 +2,6 @@ package peak.chao.gouldnavigation;
 
 import android.app.Application;
 
-import com.amap.api.navi.AMapNavi;
-
 public class App extends Application {
 
     @Override

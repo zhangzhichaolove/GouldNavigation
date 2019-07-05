@@ -41,7 +41,7 @@ public class MainActivity extends AppCompatActivity {
         //转换坐标
         //百度：104.075175,30.552622    三街地铁站
         //高德：104.069188,30.54621    三街地铁站
-        double[] lola = CoordinateUtil.bdToGaoDe(104.075175, 30.552622);
+        double[] lola = CoordinateUtil.bd_decrypt(104.075175, 30.552622);
         double[] lola2 = CoordinateUtil.gaoDeToBaidu(104.069188, 30.54621);
         Log.e("MainActivity", lola[1] + "," + lola[0]);
         Log.e("MainActivity", lola2[0] + "," + lola2[1]);
